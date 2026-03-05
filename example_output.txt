@@ -1,0 +1,21 @@
+Original DNA Sequence:
+ATGCGTACGTTAGCTAGGCTAACCGTATGCGTACGTTAGCTAGGCTA
+
+Length of DNA sequence: 46
+
+Nucleotide Counts
+A: 11
+T: 12
+G: 11
+C: 12
+
+RNA Sequence after Transcription:
+AUGCGUACGUUAGCUAGGCUAACCGUAUGCGUACGUUAGCUAGGCUA
+
+Nucleotide Percentages
+A: 23.9 %
+T: 26.1 %
+G: 23.9 %
+C: 26.1 %
+
+Analysis Complete
