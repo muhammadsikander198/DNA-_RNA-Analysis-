@@ -1,0 +1,46 @@
+# DNA to RNA Transcription and Basic DNA Analysis
+
+# DNA sequence
+dna_sequence = "ATGCGTACGTTAGCTAGGCTAACCGTATGCGTACGTTAGCTAGGCTA"
+
+# Convert to uppercase
+dna_sequence = dna_sequence.upper()
+
+print("Original DNA Sequence:")
+print(dna_sequence)
+
+# Sequence length
+length = len(dna_sequence)
+print("\nLength of DNA sequence:", length)
+
+# Count nucleotides
+A = dna_sequence.count("A")
+T = dna_sequence.count("T")
+G = dna_sequence.count("G")
+C = dna_sequence.count("C")
+
+print("\nNucleotide Counts")
+print("A:", A)
+print("T:", T)
+print("G:", G)
+print("C:", C)
+
+# DNA → RNA transcription
+rna_sequence = dna_sequence.replace("T", "U")
+
+print("\nRNA Sequence after Transcription:")
+print(rna_sequence)
+
+# Percentage calculation
+A_percent = (A/length) * 100
+T_percent = (T/length) * 100
+G_percent = (G/length) * 100
+C_percent = (C/length) * 100
+
+print("\nNucleotide Percentages")
+print("A:", round(A_percent,2), "%")
+print("T:", round(T_percent,2), "%")
+print("G:", round(G_percent,2), "%")
+print("C:", round(C_percent,2), "%")
+
+print("\nAnalysis Complete")
